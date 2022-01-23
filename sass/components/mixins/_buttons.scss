@@ -1,0 +1,37 @@
+@mixin primary-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  height: 50px;
+  background-color: $accent-main-color;
+  border: 1px solid $accent-main-color;
+  border-radius: 5px;
+
+  @include base-font(18px, 400, 22px);
+  color: $main-text-color;
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+@mixin secondary-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-left: 30px;
+  padding-right: 30px;
+
+  height: 50px;
+  background-color: transparent;
+  border: 1px solid rgba(78, 164, 220, 0.3);
+  border-radius: 5px;
+
+  @include base-font(18px, 400, 22px);
+  color: $accent-main-color;
+
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}

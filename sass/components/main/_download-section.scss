@@ -1,0 +1,65 @@
+.download-section {
+  @include section;
+  position: relative;
+  padding-bottom: 73px;
+  max-width: 1600px;
+  height: 788px;
+
+  background-image: url("../../../images/download-section-bg.png");
+  background-repeat: no-repeat;
+  background-position: top 116px right 92px;
+
+  &--bg {
+    height: 100%;
+
+    background-image: linear-gradient(
+      90deg,
+      #3b3253 0%,
+      rgba(57, 48, 80, 0) 100%
+    );
+    background-repeat: no-repeat;
+  }
+
+  &--flex {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.download-section__img {
+  width: 860px;
+  height: 484px;
+  border-radius: 21px;
+  position: absolute;
+  top: 116px;
+  right: 92px;
+}
+
+.download-section__text-thumb {
+  width: 365px;
+  margin-right: 89px;
+}
+
+.download-section__subtitle {
+  @include base-font(16px, 400, 21px, 0.01em);
+  color: $accent-main-color;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+
+  &::after {
+    content: "play";
+    @include base-font(10px, 400, 12px);
+    color: $main-text-color;
+    text-transform: lowercase;
+    text-align: center;
+    transform: translateY(-3px);
+
+    display: inline-block;
+    width: 36px;
+    height: 15px;
+    margin-left: 10px;
+    background-color: #000;
+    border-radius: 11.5px;
+  }
+}
