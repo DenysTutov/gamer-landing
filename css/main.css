@@ -319,8 +319,8 @@ body {
   margin-right: auto;
   width: 1600px;
   height: 850px;
-  background-image: url("../../images/hero-area-image.png"), -webkit-gradient(linear, left top, right top, color-stop(24.45%, rgba(48, 47, 79, 0.94)), color-stop(42.53%, rgba(47, 47, 79, 0.87)), color-stop(91.42%, rgba(45, 45, 77, 0.24))), url("../../images/hero-area-bg.png");
-  background-image: url("../../images/hero-area-image.png"), linear-gradient(90deg, rgba(48, 47, 79, 0.94) 24.45%, rgba(47, 47, 79, 0.87) 42.53%, rgba(45, 45, 77, 0.24) 91.42%), url("../../images/hero-area-bg.png");
+  background-image: url("../images/hero-area-image.png"), -webkit-gradient(linear, left top, right top, color-stop(24.45%, rgba(48, 47, 79, 0.94)), color-stop(42.53%, rgba(47, 47, 79, 0.87)), color-stop(91.42%, rgba(45, 45, 77, 0.24))), url("../images/hero-area-bg.png");
+  background-image: url("../images/hero-area-image.png"), linear-gradient(90deg, rgba(48, 47, 79, 0.94) 24.45%, rgba(47, 47, 79, 0.87) 42.53%, rgba(45, 45, 77, 0.24) 91.42%), url("../images/hero-area-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #333051;
@@ -514,7 +514,7 @@ body {
   margin-right: auto;
   max-width: 1600px;
   height: 775px;
-  background-image: url("../../../images/features-bg.png");
+  background-image: url("../images/features-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 80px;
@@ -767,7 +767,7 @@ body {
   padding-bottom: 73px;
   max-width: 1600px;
   height: 788px;
-  background-image: url("../../../images/download-section-bg.png");
+  background-image: url("../images/download-section-bg.png");
   background-repeat: no-repeat;
   background-position: top 116px right 92px;
 }

@@ -3,14 +3,14 @@
   width: 1600px;
   height: 850px;
 
-  background-image: url("../../images/hero-area-image.png"),
+  background-image: url("../images/hero-area-image.png"),
     linear-gradient(
       90deg,
       rgba(48, 47, 79, 0.94) 24.45%,
       rgba(47, 47, 79, 0.87) 42.53%,
       rgba(45, 45, 77, 0.24) 91.42%
     ),
-    url("../../images/hero-area-bg.png");
+    url("../images/hero-area-bg.png");
 
   background-repeat: no-repeat;
   background-size: cover;
